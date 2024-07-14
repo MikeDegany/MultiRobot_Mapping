@@ -21,7 +21,7 @@ This project is to implement Mapping and Navigation with multiple robots, meetin
 
 The system consists of multiple mobile robots interconnected via a Wi-Fi network, with a central PC handling the mapping and navigation tasks. The robots employ a Graph-based SLAM technique, integrating localized laser scans to construct and optimize a pose graph for a collaborative map.
 
-![System Overview](docs/media/SystemOverview "System Overview")
+![System Overview](docs/media/SystemOverview.png "System Overview")
 
 ## Hardware Setup
 
@@ -52,7 +52,7 @@ The system uses a Graph-based SLAM approach:
 3. Pose graph creation
 4. Map optimization
 
-![Mapping Hierarchy](docs/media/mapping)
+![Mapping Hierarchy](docs/media/MappingHierarchy.png)
 
 Multiple robots share pose graphs to create a collaborative map.
 
@@ -202,6 +202,9 @@ colcon build
 ```
 
 You must provide the path to a YAML configuration file as the last argument to the executable. when running the domain_bridge which has been provided in domain_bridge folder for this project. 
+
+![Mapping Hierarchy](docs/media/DomainBridge.png)
+
 
 ### Multi-robot SLAM
 
