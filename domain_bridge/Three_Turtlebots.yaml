@@ -1,0 +1,114 @@
+# Name of the domain bridge, used for node naming and logging
+name: my_bridge0
+
+topics:
+  #---------DOMAIN 1------------------
+  TB1/tf:
+    type: tf2_msgs/msg/TFMessage
+    from_domain: 1
+    to_domain: 0
+  
+  TB1/tf_static:
+    type: tf2_msgs/msg/TFMessage
+    from_domain: 1
+    to_domain: 0
+
+  TB1/scan:
+    type: sensor_msgs/msg/LaserScan
+    from_domain: 1
+    to_domain: 0
+
+  TB1/odom:
+    type: nav_msgs/msg/Odometry
+    from_domain: 1
+    to_domain: 0
+
+  TB1/robot_description:
+    type: std_msgs/msg/String
+    from_domain: 1
+    to_domain: 0
+
+  TB1/cmd_vel:
+    type: geometry_msgs/msg/Twist
+    reversed: True
+    from_domain: 1
+    to_domain: 0
+
+  TB1/ip:
+    type: std_msgs/msg/String
+    from_domain: 1
+    to_domain: 0
+
+  #---------DOMAIN 2------------------
+  TB2/tf:
+    type: tf2_msgs/msg/TFMessage
+    from_domain: 2
+    to_domain: 0
+  
+  TB2/tf_static:
+    type: tf2_msgs/msg/TFMessage
+    from_domain: 2
+    to_domain: 0
+
+  TB2/scan:
+    type: sensor_msgs/msg/LaserScan
+    from_domain: 2
+    to_domain: 0
+
+  TB2/odom:
+    type: nav_msgs/msg/Odometry
+    from_domain: 2
+    to_domain: 0
+
+  TB2/robot_description:
+    type: std_msgs/msg/String
+    from_domain: 2
+    to_domain: 0
+
+  TB2/cmd_vel:
+    type: geometry_msgs/msg/Twist
+    reversed: True
+    from_domain: 2
+    to_domain: 0
+
+  TB2/ip:
+    type: std_msgs/msg/String
+    from_domain: 2
+    to_domain: 0
+
+  #---------DOMAIN 3------------------
+  TB3/tf:
+    type: tf2_msgs/msg/TFMessage
+    from_domain: 3
+    to_domain: 0
+  
+  TB3/tf_static:
+    type: tf2_msgs/msg/TFMessage
+    from_domain: 3
+    to_domain: 0
+
+  TB3/scan:
+    type: sensor_msgs/msg/LaserScan
+    from_domain: 3
+    to_domain: 0
+
+  TB3/odom:
+    type: nav_msgs/msg/Odometry
+    from_domain: 3
+    to_domain: 0
+
+  TB3/robot_description:
+    type: std_msgs/msg/String
+    from_domain: 3
+    to_domain: 0
+
+  TB3/cmd_vel:
+    type: geometry_msgs/msg/Twist
+    reversed: True
+    from_domain: 3
+    to_domain: 0
+
+  TB3/ip:
+    type: std_msgs/msg/String
+    from_domain: 3
+    to_domain: 0
