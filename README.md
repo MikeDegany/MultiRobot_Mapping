@@ -21,7 +21,7 @@ This project is to implement Mapping and Navigation with multiple robots, meetin
 
 The system consists of multiple mobile robots interconnected via a Wi-Fi network, with a central PC handling the mapping and navigation tasks. The robots employ a Graph-based SLAM technique, integrating localized laser scans to construct and optimize a pose graph for a collaborative map.
 
-![System Overview](docs/media/SystemOverview.png "System Overview")
+![System Overview](docs/media/multirobotSetup.png "System Overview")
 
 ## Hardware Setup
 
