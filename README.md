@@ -312,6 +312,9 @@ Experiments were conducted to evaluate the performance and efficiency of the mul
 
 In order to evaluate the network, the python scripts provided in MultiBotNetTest could be run. You create the package on robots and the PC, then run _publisher.py_ on a robot/robots and _plot.py_ on the PC. You can try different scenarios depending on your evaluation desires. 
 
+## Future Work
+ - Implement the networking system using Zenoh
+
 ## Conclusion
 
 This project successfully addressed the challenges of mapping and navigation with multiple robots through a comprehensive approach encompassing networking, mapping, and navigation. The system demonstrates the feasibility and potential applications of multi-robot systems in various real-world scenarios.
