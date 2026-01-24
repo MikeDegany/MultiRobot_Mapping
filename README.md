@@ -15,7 +15,7 @@
 
 ## Introduction
 
-This project is to implement Mapping and Navigation with multiple robots, meeting the growing need for efficient coordination in real-world tasks. It uses ROS2 and DDS for communication and data sharing between robots.
+This project is to implement decentralized Mapping and Navigation with multiple robots, meeting the growing need for efficient coordination in real-world tasks. It uses ROS2 and DDS for communication and data sharing between robots.
 
 ## System Overview
 
