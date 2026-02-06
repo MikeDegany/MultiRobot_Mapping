@@ -163,8 +163,7 @@ ubuntu@ubuntu:~$ ros2 topic list
 /rosout
 ```
 
-Namespacing is not supported in Galactic.
-
+Galactic does not support Namespacing.
 
 To set the robot namespace, SSH into your TurtleBot 4 and run the turtlebot4 setup tool:
 
